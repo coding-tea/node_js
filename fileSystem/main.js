@@ -15,3 +15,6 @@ const fs = require('fs');
 
 //rename file
 //fs.renameSync('./myfile', './newName');
+
+//delete file
+//fs.unlink('./newName');
