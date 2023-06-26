@@ -8,7 +8,10 @@ const fs = require('fs');
 //console.log(fs.readFileSync('./myfile', 'utf-8'));
 
 //read file 
-fs.readFile('./myfile', 'utf-8', (err, data) => {
-    if (err) throw err;
-    console.log(data);
-});
+// fs.readFile('./myfile', 'utf-8', (err, data) => {
+//     if (err) throw err;
+//     console.log(data);
+// });
+
+//rename file
+//fs.renameSync('./myfile', './newName');
